@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* demo styles */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body {
+    background: -webkit-linear-gradient(left, #db4f24, #FF9234);
+    background: linear-gradient(to right, #db4f24, #FF9234);
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+section {
+    margin: 50px;
+}
+
+section.form {
+    background: #35D0BA;
+    padding: 40px;
+    height: 450px;
+    width: 550px;
+    position: absolute;
+    top: 30%;
+    left: 48%;
+    transform: translate(-50%, -30%);
+}
+
+.title {
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    margin: 10px 0;
+}
+
+input {
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input:focus {
+    outline: 1px solid #db4f24;
+    text-transform: uppercase;
+    color: #db4f24
+}
+
+input[type=submit] {
+    border: 1px solid #777;
+    width: 100%;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+marquee {
+    position: absolute;
+    font-size: 18px;
+    top: 3%;
+    left: 0;
+}
+
+.processing {
+    background: #35D0BA;
+    padding: 40px;
+    position: relative;
+    height: 450px;
+    width: 550px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    text-align: center;
+    background: #35D0BA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.processing h1 {
+    margin-bottom: 180px;
+}
+
+.processing h1 strong {
+    color: #db4f24;
+}
+
+.btn_one {
+    margin-left: 100px;
+}
+
+a {
+    background: #db4f24;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.user__title {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+}
+
+.tbl-header {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.tbl-content {
+    height: 65vh;
+    overflow-x: auto;
+    margin-top: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+th {
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+}
+
+/* follow me template */
+
+.made-with-love {
+    margin-top: 40px;
+    padding: 10px;
+    clear: left;
+    text-align: center;
+    font-size: 10px;
+    font-family: arial;
+    color: #fff;
+}
+
+.made-with-love i {
+    font-style: normal;
+    color: #F50057;
+    font-size: 14px;
+    position: relative;
+    top: 2px;
+}
+
+.made-with-love a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.made-with-love a:hover {
+    text-decoration: underline;
+}
+
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
